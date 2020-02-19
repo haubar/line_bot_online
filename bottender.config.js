@@ -1,6 +1,7 @@
 module.exports = {
   session: {
-    driver: 'redis',
+    // driver: 'redis',
+    driver: 'memory',
     stores: {
       memory: {
         maxSize: 500,
